@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19529" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19514"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="smartwatch2022_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="136" height="145" alignment="left" verticalAlignment="center" image="DQhCmJBX0AAC-lj" id="Ve5-qB-rTs"/>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <segue destination="1uy-se-wJS" kind="relationship" relationship="nextPage" id="OIC-3N-M1p"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="205" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="qQC-VA-2uc">
+            <objects>
+                <controller id="1uy-se-wJS" customClass="InterfaceController" customModule="smartwatch2022_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="136" height="145" alignment="left" verticalAlignment="center" image="Street-facade-of-the-Longggg-house-1" id="TIu-g2-hyL"/>
+                    </items>
+                    <connections>
+                        <segue destination="9Sl-Q0-8BM" kind="relationship" relationship="nextPage" id="blU-lb-8Ge"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="477" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="VuT-Pv-ElD">
+            <objects>
+                <controller id="9Sl-Q0-8BM" customClass="InterfaceController" customModule="smartwatch2022_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="18" alignment="left" id="8b1-gV-oqa">
+                            <items>
+                                <label alignment="center" text="Rooms" id="9Ev-Db-Dkq">
+                                    <color key="textColor" red="0.55935573579999998" green="0.3218391538" blue="0.31763947009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                            </items>
+                        </group>
+                        <imageView alignment="left" image="Линия 1" id="F5y-0x-yp4"/>
+                        <group width="1" alignment="left" id="x90-eH-4A9">
+                            <items>
+                                <button width="63" height="80" alignment="left" backgroundImage="Пользовательский размер – 5" id="eeW-lo-MrM">
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </button>
+                                <button width="57" height="69" alignment="right" backgroundImage="Пользовательский размер – 5" id="OMA-fG-55n">
+                                    <connections>
+                                        <segue destination="zet-ua-LsL" kind="push" id="JOL-74-QhA"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <color key="backgroundColor" red="0.94901961089999998" green="0.94901961089999998" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </group>
+                        <group width="1" height="11" alignment="left" id="o07-k3-CL5"/>
+                        <group width="1" height="56" alignment="left" id="NC5-Rc-Xsx">
+                            <items>
+                                <button width="67" height="58" alignment="left" backgroundImage="Пользовательский размер – 5-1" id="Mgs-pN-SRZ"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.94901961089999998" green="0.94901961089999998" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="788" y="345.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="AGV-hK-gAc">
+            <objects>
+                <controller id="zet-ua-LsL" customClass="InterfaceController" customModule="smartwatch2022_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="18" alignment="left" id="Wc2-pu-lbX">
+                            <items>
+                                <label alignment="center" text="Devices" id="SwB-bH-g7n">
+                                    <color key="textColor" red="0.55935573579999998" green="0.3218391538" blue="0.31763947009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                            </items>
+                        </group>
+                        <imageView alignment="left" image="Линия 1" id="wyx-h5-zxr"/>
+                        <group width="1" alignment="left" id="w07-Hq-GzY">
+                            <items>
+                                <button width="60" height="80" alignment="left" backgroundImage="Пользовательский размер – 1434" id="VUK-vS-kMH">
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </button>
+                                <button width="63" height="69" alignment="right" backgroundImage="Пользовательский размер – 1434" id="941-TY-voC">
+                                    <connections>
+                                        <segue destination="itN-9u-VgI" kind="push" id="DTv-qI-hFf"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <color key="backgroundColor" red="0.94901961089999998" green="0.94901961089999998" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </group>
+                        <group width="1" height="11" alignment="left" id="F6I-fD-tZG"/>
+                        <group width="1" height="56" alignment="left" id="bWc-3F-Qui">
+                            <items>
+                                <button width="57" height="58" alignment="left" backgroundImage="Пользовательский размер – 1" id="AQd-Ol-x9v"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.94901961089999998" green="0.94901961089999998" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1046" y="345.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="8cm-hq-fKu">
+            <objects>
+                <controller id="itN-9u-VgI" customClass="InterfaceController" customModule="smartwatch2022_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="18" alignment="left" id="pbz-GJ-nrM">
+                            <items>
+                                <label alignment="center" text="Light" id="M22-6X-O9I">
+                                    <color key="textColor" red="0.55935573579999998" green="0.3218391538" blue="0.31763947009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                            </items>
+                        </group>
+                        <imageView alignment="left" image="Линия 1" id="lPB-Fj-n3c"/>
+                        <group width="1" height="39" alignment="left" id="89i-Vy-DCs">
+                            <items>
+                                <button width="58" height="56" alignment="center" backgroundImage="30" id="lhs-Ke-3x8"/>
+                            </items>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </group>
+                        <group width="1" height="63" alignment="left" id="mBe-hP-2tX">
+                            <items>
+                                <button width="69" height="49" alignment="center" backgroundImage="Пользовательский размер – 7" id="Rfr-hz-4LJ"/>
+                                <button width="26" height="32" alignment="right" backgroundImage="zool2w2eo" id="TCJ-OY-3U1"/>
+                                <button width="26" height="32" alignment="left" backgroundImage="zoolo" id="ib8-9N-Bf6"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1304" y="345"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="30" width="102" height="50"/>
+        <image name="DQhCmJBX0AAC-lj" width="172" height="172"/>
+        <image name="Street-facade-of-the-Longggg-house-1" width="210" height="211"/>
+        <image name="zool2w2eo" width="46" height="70"/>
+        <image name="zoolo" width="50" height="62"/>
+        <image name="Линия 1" width="212" height="1"/>
+        <image name="Пользовательский размер – 1" width="97" height="80"/>
+        <image name="Пользовательский размер – 1434" width="95" height="80"/>
+        <image name="Пользовательский размер – 5" width="95" height="74"/>
+        <image name="Пользовательский размер – 5-1" width="96" height="78"/>
+        <image name="Пользовательский размер – 7" width="97" height="95"/>
+    </resources>
+</document>

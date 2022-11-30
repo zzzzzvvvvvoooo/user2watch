@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="212" height="212" viewBox="0 0 212 212">
+  <defs>
+    <filter id="Frame_7" x="-138" y="-95" width="388" height="373" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="50" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Frame_7-2" x="-37" y="-95" width="388" height="373" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="50" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Frame_7-3" x="-138" y="-8" width="388" height="373" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="50" result="blur-3"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Пользовательский_размер_5">
+      <rect width="212" height="212"/>
+    </clipPath>
+  </defs>
+  <g id="Пользовательский_размер_5" data-name="Пользовательский размер – 5" clip-path="url(#clip-Пользовательский_размер_5)">
+    <rect width="212" height="212" fill="#fff"/>
+    <g id="Frame_7-4" data-name="Frame 7" transform="translate(16 28.27)">
+      <g transform="matrix(1, 0, 0, 1, -16, -28.27)" filter="url(#Frame_7)">
+        <rect id="Frame_7-5" data-name="Frame 7" width="88" height="73" rx="20" transform="translate(12 35)" fill="#fff"/>
+      </g>
+      <text id="Living_Room" data-name="Living Room" transform="translate(9.649 57.817)" fill="#0e0e12" font-size="10" font-family="SFProText-Bold, SF Pro Text" font-weight="700"><tspan x="1.627" y="10">Living Room</tspan></text>
+      <g id="room" transform="translate(4.895 13.093)">
+        <g id="Group" transform="translate(0)">
+          <path id="Vector" d="M42.607,3.3,41.8,5.458a5.609,5.609,0,0,1-5.373,3.3H17.185a5.609,5.609,0,0,1-5.373-3.3L11.006,3.3A5.609,5.609,0,0,0,5.633,0C1.833,0-.873,3.077.261,6.1l3.034,8.114a5.609,5.609,0,0,0,5.373,3.3H44.947a5.609,5.609,0,0,0,5.373-3.3L53.353,6.1C54.487,3.077,51.781,0,47.98,0A5.609,5.609,0,0,0,42.607,3.3Z" transform="translate(8.298 15.142)" fill="none" stroke="#984e4f" stroke-width="2.5"/>
+          <path id="Vector-2" data-name="Vector" d="M0,13.6,2.421,2.942C2.679,1.269,4.647,0,6.987,0H27.432c2.341,0,4.308,1.269,4.561,2.942l2.427,10.243" transform="translate(18.201)" fill="none" stroke="#984e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+          <path id="Vector-3" data-name="Vector" d="M4.864,0,0,7.3" transform="translate(15.256 34.875)" fill="none" stroke="#984e4f" stroke-linecap="round" stroke-width="2.5"/>
+          <path id="Vector-4" data-name="Vector" d="M0,0,4.864,7.3" transform="translate(47.756 34.875)" fill="none" stroke="#984e4f" stroke-linecap="round" stroke-width="2.5"/>
+          <path id="Vector-5" data-name="Vector" d="M0,4.274V2.262A2.438,2.438,0,0,1,2.582,0H7.426a2.438,2.438,0,0,1,2.582,2.262V4.274" transform="translate(30.406 10.868)" fill="none" stroke="#984e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Frame_7-6" data-name="Frame 7" transform="translate(117 28.27)">
+      <g transform="matrix(1, 0, 0, 1, -117, -28.27)" filter="url(#Frame_7-2)">
+        <rect id="Frame_7-7" data-name="Frame 7" width="88" height="73" rx="20" transform="translate(113 35)" fill="#fff"/>
+      </g>
+      <text id="Living_Room-2" data-name="Living Room" transform="translate(9.649 57.817)" fill="#0e0e12" font-size="10" font-family="SFProText-Bold, SF Pro Text" font-weight="700"><tspan x="1.627" y="10">Living Room</tspan></text>
+      <g id="room-2" data-name="room" transform="translate(4.895 13.093)">
+        <g id="Group-2" data-name="Group" transform="translate(0)">
+          <path id="Vector-6" data-name="Vector" d="M42.607,3.3,41.8,5.458a5.609,5.609,0,0,1-5.373,3.3H17.185a5.609,5.609,0,0,1-5.373-3.3L11.006,3.3A5.609,5.609,0,0,0,5.633,0C1.833,0-.873,3.077.261,6.1l3.034,8.114a5.609,5.609,0,0,0,5.373,3.3H44.947a5.609,5.609,0,0,0,5.373-3.3L53.353,6.1C54.487,3.077,51.781,0,47.98,0A5.609,5.609,0,0,0,42.607,3.3Z" transform="translate(8.298 15.142)" fill="none" stroke="#984e4f" stroke-width="2.5"/>
+          <path id="Vector-7" data-name="Vector" d="M0,13.6,2.421,2.942C2.679,1.269,4.647,0,6.987,0H27.432c2.341,0,4.308,1.269,4.561,2.942l2.427,10.243" transform="translate(18.201)" fill="none" stroke="#984e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+          <path id="Vector-8" data-name="Vector" d="M4.864,0,0,7.3" transform="translate(15.256 34.875)" fill="none" stroke="#984e4f" stroke-linecap="round" stroke-width="2.5"/>
+          <path id="Vector-9" data-name="Vector" d="M0,0,4.864,7.3" transform="translate(47.756 34.875)" fill="none" stroke="#984e4f" stroke-linecap="round" stroke-width="2.5"/>
+          <path id="Vector-10" data-name="Vector" d="M0,4.274V2.262A2.438,2.438,0,0,1,2.582,0H7.426a2.438,2.438,0,0,1,2.582,2.262V4.274" transform="translate(30.406 10.868)" fill="none" stroke="#984e4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Frame_7-8" data-name="Frame 7" transform="translate(16 115.27)">
+      <g transform="matrix(1, 0, 0, 1, -16, -115.27)" filter="url(#Frame_7-3)">
+        <rect id="Frame_7-9" data-name="Frame 7" width="88" height="73" rx="20" transform="translate(12 122)" fill="#984e4f"/>
+      </g>
+      <text id="Living_Room-3" data-name="Living Room" transform="translate(9.649 57.817)" fill="#fff" font-size="10" font-family="SFProText-Bold, SF Pro Text" font-weight="700"><tspan x="1.627" y="10">Living Room</tspan></text>
+      <g id="room-3" data-name="room" transform="translate(4.895 13.093)">
+        <g id="Group-3" data-name="Group" transform="translate(0)">
+          <path id="Vector-11" data-name="Vector" d="M42.607,3.3,41.8,5.458a5.609,5.609,0,0,1-5.373,3.3H17.185a5.609,5.609,0,0,1-5.373-3.3L11.006,3.3A5.609,5.609,0,0,0,5.633,0C1.833,0-.873,3.077.261,6.1l3.034,8.114a5.609,5.609,0,0,0,5.373,3.3H44.947a5.609,5.609,0,0,0,5.373-3.3L53.353,6.1C54.487,3.077,51.781,0,47.98,0A5.609,5.609,0,0,0,42.607,3.3Z" transform="translate(8.298 15.142)" fill="none" stroke="#fff" stroke-width="2.5"/>
+          <path id="Vector-12" data-name="Vector" d="M0,13.6,2.421,2.942C2.679,1.269,4.647,0,6.987,0H27.432c2.341,0,4.308,1.269,4.561,2.942l2.427,10.243" transform="translate(18.201)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+          <path id="Vector-13" data-name="Vector" d="M4.864,0,0,7.3" transform="translate(15.256 34.875)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5"/>
+          <path id="Vector-14" data-name="Vector" d="M0,0,4.864,7.3" transform="translate(47.756 34.875)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5"/>
+          <path id="Vector-15" data-name="Vector" d="M0,4.274V2.262A2.438,2.438,0,0,1,2.582,0H7.426a2.438,2.438,0,0,1,2.582,2.262V4.274" transform="translate(30.406 10.868)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <text id="Rooms_" data-name="Rooms
+" transform="translate(106 21)" fill="#984e4f" font-size="14" font-family="SFProText-Bold, SF Pro Text" font-weight="700"><tspan x="-23.905" y="0">Rooms</tspan><tspan x="0" y="16"></tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="212" transform="translate(0.5 28.5)" fill="none" stroke="#984e4f" stroke-width="1"/>
+  </g>
+</svg>

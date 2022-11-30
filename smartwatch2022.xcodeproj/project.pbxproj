@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890C5F2F29376548005C8507 /* smartwatch2022 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 890C5F2E29376548005C8507 /* smartwatch2022 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		890C5F3529376548005C8507 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890C5F3329376548005C8507 /* Interface.storyboard */; };
+		890C5F372937654A005C8507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890C5F362937654A005C8507 /* Assets.xcassets */; };
+		890C5F3D2937654A005C8507 /* smartwatch2022 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 890C5F3C2937654A005C8507 /* smartwatch2022 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		890C5F422937654A005C8507 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5F412937654A005C8507 /* InterfaceController.swift */; };
+		890C5F442937654A005C8507 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5F432937654A005C8507 /* ExtensionDelegate.swift */; };
+		890C5F462937654A005C8507 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5F452937654A005C8507 /* NotificationController.swift */; };
+		890C5F482937654A005C8507 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5F472937654A005C8507 /* ComplicationController.swift */; };
+		890C5F4A2937654B005C8507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890C5F492937654B005C8507 /* Assets.xcassets */; };
+		890C5F562937654B005C8507 /* smartwatch2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5F552937654B005C8507 /* smartwatch2022Tests.swift */; };
+		890C5F602937654B005C8507 /* smartwatch2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5F5F2937654B005C8507 /* smartwatch2022UITests.swift */; };
+		890C5F622937654B005C8507 /* smartwatch2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C5F612937654B005C8507 /* smartwatch2022UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		890C5F3029376548005C8507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890C5F2429376548005C8507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890C5F2D29376548005C8507;
+			remoteInfo = "smartwatch2022 WatchKit App";
+		};
+		890C5F3E2937654A005C8507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890C5F2429376548005C8507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890C5F3B2937654A005C8507;
+			remoteInfo = "smartwatch2022 WatchKit Extension";
+		};
+		890C5F522937654B005C8507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890C5F2429376548005C8507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890C5F3B2937654A005C8507;
+			remoteInfo = "smartwatch2022 WatchKit Extension";
+		};
+		890C5F5C2937654B005C8507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890C5F2429376548005C8507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890C5F2D29376548005C8507;
+			remoteInfo = "smartwatch2022 WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		890C5F682937654C005C8507 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				890C5F3D2937654A005C8507 /* smartwatch2022 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F6C2937654C005C8507 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				890C5F2F29376548005C8507 /* smartwatch2022 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		890C5F2A29376548005C8507 /* smartwatch2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartwatch2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C5F2E29376548005C8507 /* smartwatch2022 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smartwatch2022 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C5F3429376548005C8507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		890C5F362937654A005C8507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		890C5F3C2937654A005C8507 /* smartwatch2022 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "smartwatch2022 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C5F412937654A005C8507 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		890C5F432937654A005C8507 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		890C5F452937654A005C8507 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		890C5F472937654A005C8507 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		890C5F492937654B005C8507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		890C5F4B2937654B005C8507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890C5F4C2937654B005C8507 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		890C5F512937654B005C8507 /* smartwatch2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartwatch2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C5F552937654B005C8507 /* smartwatch2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartwatch2022Tests.swift; sourceTree = "<group>"; };
+		890C5F5B2937654B005C8507 /* smartwatch2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartwatch2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C5F5F2937654B005C8507 /* smartwatch2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartwatch2022UITests.swift; sourceTree = "<group>"; };
+		890C5F612937654B005C8507 /* smartwatch2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartwatch2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890C5F392937654A005C8507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F4E2937654B005C8507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F582937654B005C8507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890C5F2329376548005C8507 = {
+			isa = PBXGroup;
+			children = (
+				890C5F3229376548005C8507 /* smartwatch2022 WatchKit App */,
+				890C5F402937654A005C8507 /* smartwatch2022 WatchKit Extension */,
+				890C5F542937654B005C8507 /* smartwatch2022Tests */,
+				890C5F5E2937654B005C8507 /* smartwatch2022UITests */,
+				890C5F2B29376548005C8507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		890C5F2B29376548005C8507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890C5F2A29376548005C8507 /* smartwatch2022.app */,
+				890C5F2E29376548005C8507 /* smartwatch2022 WatchKit App.app */,
+				890C5F3C2937654A005C8507 /* smartwatch2022 WatchKit Extension.appex */,
+				890C5F512937654B005C8507 /* smartwatch2022Tests.xctest */,
+				890C5F5B2937654B005C8507 /* smartwatch2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890C5F3229376548005C8507 /* smartwatch2022 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				890C5F3329376548005C8507 /* Interface.storyboard */,
+				890C5F362937654A005C8507 /* Assets.xcassets */,
+			);
+			path = "smartwatch2022 WatchKit App";
+			sourceTree = "<group>";
+		};
+		890C5F402937654A005C8507 /* smartwatch2022 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				890C5F412937654A005C8507 /* InterfaceController.swift */,
+				890C5F432937654A005C8507 /* ExtensionDelegate.swift */,
+				890C5F452937654A005C8507 /* NotificationController.swift */,
+				890C5F472937654A005C8507 /* ComplicationController.swift */,
+				890C5F492937654B005C8507 /* Assets.xcassets */,
+				890C5F4B2937654B005C8507 /* Info.plist */,
+				890C5F4C2937654B005C8507 /* PushNotificationPayload.apns */,
+			);
+			path = "smartwatch2022 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		890C5F542937654B005C8507 /* smartwatch2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				890C5F552937654B005C8507 /* smartwatch2022Tests.swift */,
+			);
+			path = smartwatch2022Tests;
+			sourceTree = "<group>";
+		};
+		890C5F5E2937654B005C8507 /* smartwatch2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				890C5F5F2937654B005C8507 /* smartwatch2022UITests.swift */,
+				890C5F612937654B005C8507 /* smartwatch2022UITestsLaunchTests.swift */,
+			);
+			path = smartwatch2022UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890C5F2929376548005C8507 /* smartwatch2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890C5F6D2937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022" */;
+			buildPhases = (
+				890C5F2829376548005C8507 /* Resources */,
+				890C5F6C2937654C005C8507 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890C5F3129376548005C8507 /* PBXTargetDependency */,
+			);
+			name = smartwatch2022;
+			productName = smartwatch2022;
+			productReference = 890C5F2A29376548005C8507 /* smartwatch2022.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		890C5F2D29376548005C8507 /* smartwatch2022 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890C5F692937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022 WatchKit App" */;
+			buildPhases = (
+				890C5F2C29376548005C8507 /* Resources */,
+				890C5F682937654C005C8507 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890C5F3F2937654A005C8507 /* PBXTargetDependency */,
+			);
+			name = "smartwatch2022 WatchKit App";
+			productName = "smartwatch2022 WatchKit App";
+			productReference = 890C5F2E29376548005C8507 /* smartwatch2022 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		890C5F3B2937654A005C8507 /* smartwatch2022 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890C5F652937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022 WatchKit Extension" */;
+			buildPhases = (
+				890C5F382937654A005C8507 /* Sources */,
+				890C5F392937654A005C8507 /* Frameworks */,
+				890C5F3A2937654A005C8507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "smartwatch2022 WatchKit Extension";
+			productName = "smartwatch2022 WatchKit Extension";
+			productReference = 890C5F3C2937654A005C8507 /* smartwatch2022 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		890C5F502937654B005C8507 /* smartwatch2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890C5F702937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022Tests" */;
+			buildPhases = (
+				890C5F4D2937654B005C8507 /* Sources */,
+				890C5F4E2937654B005C8507 /* Frameworks */,
+				890C5F4F2937654B005C8507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890C5F532937654B005C8507 /* PBXTargetDependency */,
+			);
+			name = smartwatch2022Tests;
+			productName = smartwatch2022Tests;
+			productReference = 890C5F512937654B005C8507 /* smartwatch2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		890C5F5A2937654B005C8507 /* smartwatch2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890C5F732937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022UITests" */;
+			buildPhases = (
+				890C5F572937654B005C8507 /* Sources */,
+				890C5F582937654B005C8507 /* Frameworks */,
+				890C5F592937654B005C8507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890C5F5D2937654B005C8507 /* PBXTargetDependency */,
+			);
+			name = smartwatch2022UITests;
+			productName = smartwatch2022UITests;
+			productReference = 890C5F5B2937654B005C8507 /* smartwatch2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890C5F2429376548005C8507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					890C5F2929376548005C8507 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					890C5F2D29376548005C8507 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					890C5F3B2937654A005C8507 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					890C5F502937654B005C8507 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 890C5F3B2937654A005C8507;
+					};
+					890C5F5A2937654B005C8507 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 890C5F2D29376548005C8507;
+					};
+				};
+			};
+			buildConfigurationList = 890C5F2729376548005C8507 /* Build configuration list for PBXProject "smartwatch2022" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 890C5F2329376548005C8507;
+			productRefGroup = 890C5F2B29376548005C8507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890C5F2929376548005C8507 /* smartwatch2022 */,
+				890C5F2D29376548005C8507 /* smartwatch2022 WatchKit App */,
+				890C5F3B2937654A005C8507 /* smartwatch2022 WatchKit Extension */,
+				890C5F502937654B005C8507 /* smartwatch2022Tests */,
+				890C5F5A2937654B005C8507 /* smartwatch2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890C5F2829376548005C8507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F2C29376548005C8507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5F372937654A005C8507 /* Assets.xcassets in Resources */,
+				890C5F3529376548005C8507 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F3A2937654A005C8507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5F4A2937654B005C8507 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F4F2937654B005C8507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F592937654B005C8507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890C5F382937654A005C8507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5F462937654A005C8507 /* NotificationController.swift in Sources */,
+				890C5F482937654A005C8507 /* ComplicationController.swift in Sources */,
+				890C5F442937654A005C8507 /* ExtensionDelegate.swift in Sources */,
+				890C5F422937654A005C8507 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F4D2937654B005C8507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5F562937654B005C8507 /* smartwatch2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890C5F572937654B005C8507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C5F622937654B005C8507 /* smartwatch2022UITestsLaunchTests.swift in Sources */,
+				890C5F602937654B005C8507 /* smartwatch2022UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890C5F3129376548005C8507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890C5F2D29376548005C8507 /* smartwatch2022 WatchKit App */;
+			targetProxy = 890C5F3029376548005C8507 /* PBXContainerItemProxy */;
+		};
+		890C5F3F2937654A005C8507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890C5F3B2937654A005C8507 /* smartwatch2022 WatchKit Extension */;
+			targetProxy = 890C5F3E2937654A005C8507 /* PBXContainerItemProxy */;
+		};
+		890C5F532937654B005C8507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890C5F3B2937654A005C8507 /* smartwatch2022 WatchKit Extension */;
+			targetProxy = 890C5F522937654B005C8507 /* PBXContainerItemProxy */;
+		};
+		890C5F5D2937654B005C8507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890C5F2D29376548005C8507 /* smartwatch2022 WatchKit App */;
+			targetProxy = 890C5F5C2937654B005C8507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		890C5F3329376548005C8507 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890C5F3429376548005C8507 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		890C5F632937654C005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		890C5F642937654C005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		890C5F662937654C005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "smartwatch2022 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "smartwatch2022 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		890C5F672937654C005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "smartwatch2022 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "smartwatch2022 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		890C5F6A2937654C005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = smartwatch2022_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "smartwatch2022 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		890C5F6B2937654C005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = smartwatch2022_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "smartwatch2022 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		890C5F6E2937654C005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		890C5F6F2937654C005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		890C5F712937654C005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartwatch2022 WatchKit Extension.appex/smartwatch2022 WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		890C5F722937654C005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartwatch2022 WatchKit Extension.appex/smartwatch2022 WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		890C5F742937654C005C8507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "smartwatch2022 WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		890C5F752937654C005C8507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.smartwatch2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "smartwatch2022 WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890C5F2729376548005C8507 /* Build configuration list for PBXProject "smartwatch2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5F632937654C005C8507 /* Debug */,
+				890C5F642937654C005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890C5F652937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5F662937654C005C8507 /* Debug */,
+				890C5F672937654C005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890C5F692937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5F6A2937654C005C8507 /* Debug */,
+				890C5F6B2937654C005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890C5F6D2937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5F6E2937654C005C8507 /* Debug */,
+				890C5F6F2937654C005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890C5F702937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5F712937654C005C8507 /* Debug */,
+				890C5F722937654C005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890C5F732937654C005C8507 /* Build configuration list for PBXNativeTarget "smartwatch2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890C5F742937654C005C8507 /* Debug */,
+				890C5F752937654C005C8507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890C5F2429376548005C8507 /* Project object */;
+}
